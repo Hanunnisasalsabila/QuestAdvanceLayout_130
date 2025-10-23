@@ -19,6 +19,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.Image
 import androidx.compose.ui.res.painterResource
+import androidx.compose.foundation.layout.size
 @Composable
 fun ActivitasPertama(modifier: Modifier){
     Column(
@@ -47,7 +48,10 @@ fun ActivitasPertama(modifier: Modifier){
                 val gambar = painterResource(R.drawable.logo_umy)
                 Image(
                     painter = gambar,
-                    contentDescription = null
+                    contentDescription = null,
+                    modifier = Modifier
+                        .size(100.dp)
+                        .padding(5.dp)
                 )
             }
         }
