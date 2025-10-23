@@ -16,6 +16,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.CardDefaults
 import androidx.compose.ui.graphics.Color
+import androidx.compose.foundation.layout.Row
 @Composable
 fun ActivitasPertama(modifier: Modifier){
     Column(
@@ -40,7 +41,9 @@ fun ActivitasPertama(modifier: Modifier){
                 containerColor = Color.DarkGray
             )
         ) {
+            Row() {
 
+            }
         }
     }
 }
