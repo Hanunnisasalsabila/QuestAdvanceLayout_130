@@ -9,6 +9,8 @@ import androidx.compose.material3.Text
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.height
 @Composable
 fun ActivitasPertama(modifier: Modifier){
     Column(
@@ -24,5 +26,6 @@ fun ActivitasPertama(modifier: Modifier){
             stringResource(R.string.univ),
             fontSize = 22.sp
         )
+        Spacer(modifier = Modifier.height(25.dp))
     }
 }
