@@ -53,6 +53,9 @@ fun ActivitasPertama(modifier: Modifier){
                         .size(100.dp)
                         .padding(5.dp)
                 )
+                Column() {
+                    // Teks nama dan alamat akan di sini
+                }
             }
         }
     }
