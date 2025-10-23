@@ -21,6 +21,7 @@ import androidx.compose.foundation.Image
 import androidx.compose.ui.res.painterResource
 import androidx.compose.foundation.layout.size
 import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.foundation.layout.width
 @Composable
 fun ActivitasPertama(modifier: Modifier){
     Column(
@@ -54,6 +55,7 @@ fun ActivitasPertama(modifier: Modifier){
                         .size(100.dp)
                         .padding(5.dp)
                 )
+                Spacer(modifier = Modifier.width(30.dp))
                 Column() {
                     Text(
                         stringResource(R.string.nama),
