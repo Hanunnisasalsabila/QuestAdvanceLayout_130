@@ -20,6 +20,7 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.Image
 import androidx.compose.ui.res.painterResource
 import androidx.compose.foundation.layout.size
+import androidx.compose.ui.text.font.FontFamily
 @Composable
 fun ActivitasPertama(modifier: Modifier){
     Column(
@@ -54,8 +55,19 @@ fun ActivitasPertama(modifier: Modifier){
                         .padding(5.dp)
                 )
                 Column() {
-                    Text(stringResource(R.string.nama))
-                    Text(stringResource(R.string.alamat))
+                    Text(
+                        stringResource(R.string.nama),
+                        fontSize = 30.sp,
+                        fontFamily = FontFamily.Cursive,
+                        color = Color.White,
+                        modifier = Modifier.padding(top = 15.dp)
+                    )
+                    Text(
+                        stringResource(R.string.alamat),
+                        fontSize = 20.sp,
+                        color = Color.Yellow,
+                        modifier = Modifier.padding(top = 10.dp)
+                    )
                 }
             }
         }
