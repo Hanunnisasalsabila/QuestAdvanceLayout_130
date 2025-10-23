@@ -12,6 +12,10 @@ import androidx.compose.ui.unit.sp
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.height
 import androidx.compose.material3.Card
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
+import androidx.compose.material3.CardDefaults
+import androidx.compose.ui.graphics.Color
 @Composable
 fun ActivitasPertama(modifier: Modifier){
     Column(
@@ -28,7 +32,14 @@ fun ActivitasPertama(modifier: Modifier){
             fontSize = 22.sp
         )
         Spacer(modifier = Modifier.height(25.dp))
-        Card() {
+        Card (
+            modifier = Modifier
+                .fillMaxWidth(1f)
+                .padding(all = 12.dp),
+            colors = CardDefaults.cardColors(
+                containerColor = Color.DarkGray
+            )
+        ) {
 
         }
     }
