@@ -11,6 +11,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.height
+import androidx.compose.material3.Card
 @Composable
 fun ActivitasPertama(modifier: Modifier){
     Column(
@@ -27,5 +28,8 @@ fun ActivitasPertama(modifier: Modifier){
             fontSize = 22.sp
         )
         Spacer(modifier = Modifier.height(25.dp))
+        Card() {
+
+        }
     }
 }
