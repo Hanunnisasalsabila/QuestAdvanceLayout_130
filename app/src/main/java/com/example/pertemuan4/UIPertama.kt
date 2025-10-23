@@ -17,6 +17,8 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.CardDefaults
 import androidx.compose.ui.graphics.Color
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.Image
+import androidx.compose.ui.res.painterResource
 @Composable
 fun ActivitasPertama(modifier: Modifier){
     Column(
@@ -42,7 +44,11 @@ fun ActivitasPertama(modifier: Modifier){
             )
         ) {
             Row() {
-
+                val gambar = painterResource(R.drawable.logo_umy)
+                Image(
+                    painter = gambar,
+                    contentDescription = null
+                )
             }
         }
     }
