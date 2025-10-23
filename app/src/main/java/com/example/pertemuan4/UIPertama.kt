@@ -54,7 +54,8 @@ fun ActivitasPertama(modifier: Modifier){
                         .padding(5.dp)
                 )
                 Column() {
-                    // Teks nama dan alamat akan di sini
+                    Text(stringResource(R.string.nama))
+                    Text(stringResource(R.string.alamat))
                 }
             }
         }
