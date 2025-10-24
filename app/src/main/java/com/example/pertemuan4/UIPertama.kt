@@ -74,6 +74,8 @@ fun ActivitasPertama(modifier: Modifier){
                 }
             }
         }
+        // KARTU BIRU
+
         Box(
             modifier = Modifier
                 .fillMaxSize()
