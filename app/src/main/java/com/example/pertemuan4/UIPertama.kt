@@ -75,6 +75,13 @@ fun ActivitasPertama(modifier: Modifier){
             }
         }
         // KARTU BIRU
+        Card(
+            modifier = Modifier
+                .fillMaxWidth(1f)
+                .padding(horizontal = 12.dp, vertical = 8.dp),
+            colors = CardDefaults.cardColors(containerColor = Color.Blue)
+        ) {
+        }
 
         Box(
             modifier = Modifier
