@@ -82,7 +82,14 @@ fun ActivitasPertama(modifier: Modifier){
             colors = CardDefaults.cardColors(containerColor = Color.Blue)
         ) {
             Row(verticalAlignment = Alignment.CenterVertically) {
-
+                val gambar = painterResource(R.drawable.logo_umy)
+                Image(
+                    painter = gambar,
+                    contentDescription = null,
+                    modifier = Modifier
+                        .size(100.dp)
+                        .padding(5.dp)
+                )
             }
         }
 
