@@ -116,6 +116,13 @@ fun ActivitasPertama(modifier: Modifier){
         }
 
         // KARTU MERAH
+        Card(
+            modifier = Modifier
+                .fillMaxWidth(1f)
+                .padding(horizontal = 12.dp, vertical = 8.dp),
+            colors = CardDefaults.cardColors(containerColor = Color.Red)
+        ) {
+        }
 
         Box(
             modifier = Modifier
