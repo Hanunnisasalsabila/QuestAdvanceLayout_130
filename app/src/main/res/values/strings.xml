@@ -5,4 +5,8 @@
     <string name="nama">Hanun Nisa</string>
     <string name="alamat">Tamantirto, Gamping</string>
     <string name="copy">copyright, 2025</string>
+
+    <string name="placeholder_nama">Hanun Nisa Salsabila</string>
+    <string name="placeholder_nim">20230140130</string>
+    <string name="placeholder_alamat">Karawang</string>
 </resources>
