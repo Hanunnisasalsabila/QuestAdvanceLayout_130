@@ -115,6 +115,8 @@ fun ActivitasPertama(modifier: Modifier){
             }
         }
 
+        // KARTU MERAH
+
         Box(
             modifier = Modifier
                 .fillMaxSize()
